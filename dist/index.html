@@ -7,40 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <title>Shapevoice</title>
-  <link rel="stylesheet" href="/assets/index.f91c3bbb.css">
+  <link rel="stylesheet" href="/assets/index.83595f53.css">
 </head>
 
 <body>
   <div id="app" class='font-sans'>
     <nav class='w-full'>
-      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto flex justify-between items-center'>
-        <div class='logo text-xl uppercase font-bold'>Shapevoice</div>
+      <div class='container px-4 py-5 mx-auto flex justify-between items-center space-x-20'>
 
-        <ul class='flex items-center space-x-6 font-semibold'>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Tamplate</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pricing</a></li>
-        </ul>
+        <a href='#' class='logo text-xl text-primary uppercase font-extrabold'>Shapevoice</a>
 
-        <div class='flex items-center space-x-6'>
-          <a href="#" class='font-semibold'>Sign In</a>
-          <button class='px-7 py-3 bg-primary text-white rounded-xl'>Start Free</button>
+        <!-- Menu Button -->
+        <div class='md:hidden bg-primary p-2 rounded'>
+          <svg class='h-5 aspect-square fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z" />
+          </svg>
+        </div>
+
+        <!-- Menu Content -->
+        <div class='hidden md:flex items-center justify-between grow'>
+          <ul class='hidden md:flex items-center space-x-6 font-semibold'>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Tamplate</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+
+          <div class='flex items-center space-x-6'>
+            <a href="#" class='font-semibold'>Sign In</a>
+            <button class='px-5 py-2.5 md:px-7 md:py-3 bg-primary text-white rounded-xl'>Start Free</button>
+          </div>
         </div>
       </div>
     </nav>
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto flex justify-between items-center'>
+    <div class='mt-8 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 xl:mx-auto flex justify-between items-center'>
         <div class='w-full lg:grid grid-cols-5 gap-10'>
           <div class='col-span-3'>
-            <h2 class='text-5xl font-extrabold leading-tight'>Managing business payments has never been easier</h2>
+            <h2 class='text-3xl md:text-5xl font-extrabold leading-normal md:leading-tight'>Managing business payments
+              has never been easier</h2>
             <p class='mt-4 xl:w-3/4 text-lg text-body leading-normal'>Yet bed any for travelling assistance indulgence
               unpleasing. Not thoughts all exercise
               blessing. Indulgence way everything.</p>
-            <div class='mt-6 flex items-center space-x-6'>
+            <div class='mt-6 md:flex items-center md:space-x-6'>
               <button class='px-8 py-3 bg-primary text-white rounded-full'>Our Process</button>
-              <button class='flex items-center space-x-3'>
+              <button class='mt-4 md:mt-0 flex items-center space-x-3'>
                 <div class='w-12 aspect-square flex items-center justify-center bg-[#22D497] rounded-full'>
                   <svg class='fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path fill="none" d="M0 0h24v24H0z" />
@@ -52,8 +65,8 @@
             </div>
           </div>
 
-          <div class='col-span-2'>
-            <h4 class=' text-xl text-primary font-bold'>Get Started for Free</h4>
+          <div class='mt-10 md:mt-0 col-span-2'>
+            <h4 class='text-xl text-primary font-bold'>Get Started for Free</h4>
 
             <input class='w-full mt-4 p-4 uppercase font-semibold border border-border rounded-md' type="email" name=""
               id="" placeholder='Email Adress'>
@@ -66,29 +79,29 @@
       </div>
     </div>
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto'>
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto'>
         <h3 class='text-xl text-center font-bold'>Trusted By Over 100+ Startups and freelance business</h3>
-        <div class='mt-10 flex justify-center items-center space-x-10'>
-          <img class='h-6' src="./img/group-1.png" alt="">
-          <img class='h-6' src="./img/group-2.png" alt="">
-          <img class='h-6' src="./img/group-3.png" alt="">
-          <img class='h-6' src="./img/group-4.png" alt="">
-          <img class='h-6' src="./img/group-5.png" alt="">
+        <div class='mt-10 md:flex justify-center items-center md:space-x-10 space-y-5 md:space-y-0'>
+          <img class='h-6 mx-auto md:mx-0' src="./img/group-1.png" alt="">
+          <img class='h-6 mx-auto' src="./img/group-2.png" alt="">
+          <img class='h-6 mx-auto' src="./img/group-3.png" alt="">
+          <img class='h-6 mx-auto' src="./img/group-4.png" alt="">
+          <img class='h-6 mx-auto' src="./img/group-5.png" alt="">
         </div>
       </div>
     </div>
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto text-center'>
-        <h3 class='text-4xl text-center font-bold'>Believing neglected so so allowance</h3>
-        <p class='mt-6 text-lg text-center text-body xl:max-w-screen-sm mx-auto'>We so opinion friends me message as
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto text-center'>
+        <h3 class='text-2xl md:text-4xl text-center font-bold'>Believing neglected so so allowance</h3>
+        <p class='mt-6 text-lg text-center text-body xl:max-w-screen-sm lg:mx-auto'>We so opinion friends me message as
           delight. Whole front do of plate heard oh ought. His defective nor
           convinced residence own.</p>
-        <button class='mt-6 mx-auto px-7 xl:px-32 py-3 bg-primary text-center text-white rounded-xl'>We so opinion
+        <button class='mt-6 lg:mx-auto px-7 xl:px-32 py-3 bg-primary text-center text-white rounded-xl'>We so opinion
           friends me message as delight.</button>
 
-        <div class='mt-16 grid grid-cols-3 gap-16'>
+        <div class='mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-16'>
 
           <div class='relative text-left'>
             <span class='z-0 absolute right-0 top-1 text-9xl text-[#F8F9FD] font-bold'>1</span>
@@ -173,13 +186,72 @@
       </div>
     </div>
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto text-center'>
-        <h3 class='text-4xl text-center font-bold'>Push your code to product with ease.</h3>
-        <p class='mt-6 text-lg text-center text-body xl:max-w-screen-sm mx-auto'>Led ask possible mistress relation
+
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto text-center'>
+        <div class='p-8 md:p-16 grid grid-cols-1 md:grid-cols-3 gap-10 bg-[#F8F9FD] rounded-lg'>
+          <div class='md:col-span-2'>
+            <h4 class='w-full text-xl md:text-3xl text-left font-bold'>Track your crytpo portfolio on the best way possible</h4>
+          </div>
+          <div class='text-center md:text-right'>
+            <button class='px-7 py-3 bg-primary text-center text-white rounded-xl'>Check it out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto'>
+        <div class='grid grid-cols-1 lg:grid-cols-2 md:gap-16'>
+          <div>
+            <img class='max-w-full max-h-full lg:mx-auto' src="/img/cards.png" alt="">
+          </div>
+          <div>
+            <h6 class='mt-4 uppercase text-sm text-primary font-bold'>Why choose us</h6>
+            <h2 class='mt-4 text-2xl md:text-5xl font-bold'>Thirty for remove plenty regard you summer though.</h2>
+            <p class='mt-4 md:mt-8 pb-5 text-lg text-body leading-normal border-b border-border'>The its enable direct men
+              depend highly. Ham windows sixteen who
+              inquiry fortune demands.</p>
+
+            <ul class='mt-5 space-y-3 text-body'>
+              <li class='flex items-center space-x-4'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
+                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Get Overview at a glance</span>
+              </li>
+              <li class='flex items-center space-x-4'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
+                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Deoposit funds easily, securlity</span>
+              </li>
+              <li class='flex items-center space-x-4'>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
+                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <span>Get Live Support</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto text-center'>
+        <h3 class='text-2xl md:text-4xl text-center font-bold'>Push your code to product with ease.</h3>
+        <p class='mt-6 text-lg text-center text-body xl:max-w-screen-sm lg:mx-auto'>Led ask possible mistress relation
           elegance eat likewise debating. By message or am nothing amongst chiefly address.</p>
 
-        <div class='mt-8 grid grid-cols-3 gap-4'>
+        <div class='mt-4 md:mt-8 grid grid-cols-1 md:grid-cols-3 gap-4'>
           <div class='p-6 bg-transparent border border-border rounded-lg text-left shadow-lg'>
             <h4 class='mt-8 text-xl font-bold'>Do believing oh disposing to supported</h4>
             <p class='mt-4 text-body leading-normal'>Is be upon sang fond must shew. Really boy law county she unable
@@ -226,81 +298,89 @@
           </div>
         </div>
 
-        <button class='mt-6 mx-auto px-7 py-3 bg-primary text-sm text-center text-white font-semibold rounded-xl'>More
+        <button
+          class='mt-6 lg:mx-auto px-7 py-3 bg-primary text-sm text-center text-white font-semibold rounded-xl'>More
           About Platform</button>
       </div>
     </div>
 
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto text-center'>
-        <div class='p-16 grid grid-cols-3 gap-12 bg-[#F8F9FD] rounded-lg'>
-          <div class='col-span-2'>
-            <h4 class='w-full text-3xl text-left font-bold'>Track your crytpo portfolio on the best way possible</h4>
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl mx-4 xl:mx-auto p-7 md:p-10 bg-white border border-border rounded-xl shadow-xl'>
+        <div class='md:flex items-center'>
+          <div class=''>
+            <h2 class='text-xl md:text-3xl font-bold'>Preference connect astonished</h2>
           </div>
-          <div class='text-right'>
-            <button class='px-7 py-3 bg-primary text-center text-white rounded-xl'>Check it out</button>
+          <div class='mt-4 md:mt-0 grid grid-cols-1 md:grid-cols-3 gap-4 grow'>
+            <div class='flex items-center'>
+              <div class='h-20 aspect-square p-3 bg-[#E9ECF2] rounded'>
+                <img class='w-full' src="/img/pref-1.svg" alt="">
+              </div>
+              <p class='ml-4 text-lg text-[#64607D] font-semibold'>Removed Enjoyed Explain</p>
+            </div>
+
+            <div class='flex items-center'>
+              <div class='h-20 aspect-square p-3 bg-[#E9ECF2] rounded'>
+                <img class='w-full' src="/img/pref-2.svg" alt="">
+              </div>
+              <p class='ml-4 text-lg text-[#64607D] font-semibold'>Supported Allowance</p>
+            </div>
+
+            <div class='flex items-center'>
+              <div class='h-20 aspect-square p-3 bg-[#E9ECF2] rounded'>
+                <img class='w-full' src="/img/pref-3.svg" alt="">
+              </div>
+              <p class='ml-4 text-lg text-[#64607D] font-semibold'>Stable work & Lightweight</p>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto'>
-        <div class='grid grid-cols-1 lg:grid-cols-2 gap-16'>
+
+    <!-- TESTEMONIALS -->
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl xl:mx-auto px-4 xl:px-0'>
+        <h4 class='text-primary uppercase font-extrabold'>Testimonials</h4>
+        <h2 class='mt-4 text-2xl md:text-4xl font-bold'>Check what our clients are saying</h2>
+        <div class='mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8'>
           <div>
-            <img class='max-w-full max-h-full mx-auto' src="/assets/cards.d66a9a46.png" alt="">
+            <img src="/img/testi-1.png" alt="">
           </div>
           <div>
-            <h6 class='mt-4 uppercase text-sm text-primary font-bold'>Why choose us</h6>
-            <h2 class='mt-4 text-5xl font-bold'>Thirty for remove plenty regard you summer though.</h2>
-            <p class='mt-8 pb-5 text-lg text-body leading-normal border-b border-border'>The its enable direct men
-              depend highly. Ham windows sixteen who
-              inquiry fortune demands.</p>
+            <img src="/img/qoute.svg" alt="">
+            <h3 class='mt-4 text-2xl font-bold'>Save Time Managing Social Media For Your Business</h3>
+            <p class='mt-4 text-body leading-normal'>
+              Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like
+              six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or
+              warmly.
+              <br />
+              Believing neglected so so allowance existence departure in. In design active temper be uneasy.
+            </p>
 
-            <ul class='mt-5 space-y-3 text-body'>
-              <li class='flex items-center space-x-4'>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
-                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-                <span>Get Overview at a glance</span>
-              </li>
-              <li class='flex items-center space-x-4'>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
-                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-                <span>Deoposit funds easily, securlity</span>
-              </li>
-              <li class='flex items-center space-x-4'>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="12" fill="#FDBC64" />
-                  <path d="M8 12L10.8 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
-                <span>Get Live Support</span>
-              </li>
-            </ul>
+            <p class='mt-4 text-2xl text-[#F9896B]'>★★★★★</p>
+            <h4 class='mt-4 font-bold'>Alex Ray</h4>
+            <p class='mt-2 text-sm text-body leading-normal'>CEO Slovanky design</p>
           </div>
         </div>
       </div>
     </div>
 
+
+    <!-- BLOG -->
     <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto'>
-        <div class='grid grid-cols-4 gap-8'>
-          <div class='col-span-3'>
-            <h2 class='text-4xl font-bold'>Our Latest Blog Posts</h2>
+      <div class='max-w-screen-xl mx-4 py-5 xl:mx-auto'>
+        <div class='grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8'>
+          <div class='md:col-span-3'>
+            <h2 class='text-2xl md:text-4xl font-bold'>Our Latest Blog Posts</h2>
           </div>
-          <div class='text-right'>
+          <div class='md:text-right'>
             <button class='ml-auto px-7 py-3 bg-primary text-center text-white rounded-xl'>See All Blog Posts</button>
           </div>
         </div>
 
-        <div class='mt-12 xl:grid grid-cols-3 gap-8'>
+        <div class='mt-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8'>
           <div>
             <div class='aspect-4/3 bg-secondary rounded-md overflow-hidden'>
               <img class='min-w-full min-h-full object-cover'
@@ -400,10 +480,47 @@
 
 
     <!-- FOOTER -->
-    <div class='mt-20'>
-      <div class='max-w-screen-lg mx-4 py-5 xl:mx-auto text-center'>
-        <div class='h-40 p-8'>
-          Footer
+    <div class='mt-12 md:mt-20'>
+      <div class='max-w-screen-xl px-4 xl:px-0 py-5 mx-auto'>
+        <div class='grid grid-cols-1 xl:grid-cols-3 gap-8'>
+          <div class='col-span-2 grid grid-cols-1 md:grid-cols-3 gap-8 text-lg'>
+            <div>
+              <h4 class='text-2xl text-primary font-extrabold uppercase'>Shapevoice</h4>
+              <p class='mt-4 text-body font-medium'>Finance helps companies manage payments easily.</p>
+
+            </div>
+            <div>
+              <h4 class='text-2xl font-bold'>Company</h4>
+              <ul>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">About Us</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Careers</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Blog</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class='text-2xl font-bold'>Resources</h4>
+              <ul>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Proposal Template</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Invoice Template</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">Tuturoial</a></li>
+                <li class='mt-4'><a class='text-body font-semibold' href="#">How to write a contract</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class='col-span-1'>
+            <h4 class='text-2xl font-bold'>Join Our Newsletter</h4>
+            <div class='mt-4 flex items-center'>
+              <input class='grow p-3 md:p-4 uppercase font-semibold bg-[#F9F9F9]' type="email" name="" id=""
+                placeholder='Email Adress'>
+              <button class='p-3 md:py-4 md:px-8 uppercase bg-primary text-sm md:text-base text-white font-bold'>Subscribe</button>
+            </div>
+            <p class='mt-4 text-body font-medium'>* Will send you weekly updates for your better finance management.</p>
+          </div>
+        </div>
+
+        <div class='mt-10 py-10 border-t-2 border-border text-body text-center'>
+          <span>Copyright @ AR Shakir 2022. All Rights Reserved.</span>
         </div>
       </div>
     </div>
