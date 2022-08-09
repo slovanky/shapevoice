@@ -1,5 +1,5 @@
 # shapevoice
 
-live demo: https://shapevoice.slovanky.com/ ( TailwindCSSb )
+live demo: https://shapevoice.slovanky.com/ ( TailwindCSS )
 
 ![](./screenshot.png)
