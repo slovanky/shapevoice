@@ -1,5 +1,5 @@
 # shapevoice
 
-Check a live here: https://minichat.slovanky.com/ ( TailwindCSSb )
+live demo: https://shapevoice.slovanky.com/ ( TailwindCSSb )
 
 ![](./screenshot.png)
